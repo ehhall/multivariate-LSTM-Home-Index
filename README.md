@@ -27,7 +27,7 @@
   <li><b> Data: </b> 
   <ul>
   <li> Raw: Contains a folder of the raw data used in the Data Wrangling notebook. Some datasets were directly pulled from the FED with "pandas_datareader", and are not included in the folder.</li>
-  <li> Processed: The raw datasets were merged together in the Data Wrangling notebook, and subsetted to the 2005-2022 years used in the analysis <i> housing_data_for_eda.csv. </i> We fill in missing values during EDA to prepare for modeling <i> housing_data_for_modeling.csv. </i> Exogenous variables forecasted out for 30 months and with the FED's correction plan initatied are in <i> forecast30observation_sensitivity_new.csv. </i> Forecasted housing prices for 2022-2024 with and without the FED's correction plan are in <i>final_forecast.csv.</i> </li> </ul>
+  <li> Processed: The raw datasets were merged together in the Data Wrangling notebook, and subsetted to the 2005-2022 years used in the analysis <i> housing_data_for_eda.csv. </i> We fill in missing values during EDA to prepare for modeling <i> housing_data_for_modeling.csv. </i> Exogenous variables forecasted out for 30 months are in <i> forecast30observation_sensitivity_new.csv. </i> Forecasted housing prices for 2022-2024 with and without the FED's correction plan are in <i>final_forecast.csv.</i> </li> </ul>
   <li> <b> Notebooks:</b> Contains jupyter notebooks of Data Wrangling, Exploratory Data Analysis, Modeling, & Forecasting </li>
 </ul>
 
