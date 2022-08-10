@@ -1,7 +1,7 @@
 # Multivariate-LSTM-Home-Index
 
 <p> <i>Bushra Islam, Ha Bui, Geeta Apodaca, Ramya Venkatesan, Karthigalakshmi Ramasamy, Elizabeth Hall, and Ewa Godlewska </i></p>
-<p>This Project is a part of DataScience4All Women's Summit 2022, sponsored by Correlation One. We analyzed the impact of different socio-economic factors on housing prices during the Covid-19 pandemic, and forecasted two years of average US housing prices (2022-2024) in reaction to the FED's housing market correction plan.  The project owners are seven summit participants including.</p>
+<p>This Project is a part of DataScience4All Women's Summit 2022, sponsored by Correlation One. We analyzed the impact of different socio-economic factors on housing prices during the Covid-19 pandemic, and forecasted two years of average US housing prices (2022-2024) in reaction to the FED's housing market correction plan.  </p>
 
 <H2><b>Background </b></H2>
 
@@ -26,9 +26,9 @@
 <ul>
   <li><b> Data: </b> 
   <ul>
-  <li><b> Raw: Contains a folder of the raw data used in the Data Wrangling notebook. Some datasets were directly pulled from the FED with "pandas_datareader", and are not included in the folder.</li>
-  <li><b> Processed: The raw datasets were merged together in the Data Wrangling notebook, and subsetted to the 2005-2022 years used in the analysis (housing_data_for_eda.csv). We fill in missing values during EDA to prepare the data for modeling (housing_data_for_modeling.csv). </li>
-  <li><b> Notebooks: </b> Contains jupyter notebooks of Data Wrangling, Exploratory Data Analysis, Modeling, & Forecasting </li>
+  <li> Raw: Contains a folder of the raw data used in the Data Wrangling notebook. Some datasets were directly pulled from the FED with "pandas_datareader", and are not included in the folder.</li>
+  <li> Processed: The raw datasets were merged together in the Data Wrangling notebook, and subsetted to the 2005-2022 years used in the analysis <i> housing_data_for_eda.csv. </i> We fill in missing values during EDA to prepare for modeling <i> housing_data_for_modeling.csv. </i> Exogenous variables forecasted out for 30 months and with the FED's correction plan initatied are in <i> forecast30observation_sensitivity_new.csv. </i> Forecasted housing prices for 2022-2024 with and without the FED's correction plan are in <i>final_forecast.csv.</i> </li> </ul>
+  <li> <b> Notebooks:</b> Contains jupyter notebooks of Data Wrangling, Exploratory Data Analysis, Modeling, & Forecasting </li>
 </ul>
 
 <H2>Poster  </H2>
