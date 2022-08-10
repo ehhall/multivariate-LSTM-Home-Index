@@ -24,7 +24,10 @@
 
 <H2><b> Contents </b>  </H2>
 <ul>
-  <li><b> Data: </b> Contains a folder of the raw data and a csv of post "data-wrangling" data</li>
+  <li><b> Data: </b> 
+  <ul>
+  <li><b> Raw: Contains a folder of the raw data used in the Data Wrangling notebook. Some datasets were directly pulled from the FED with "pandas_datareader", and are not included in the folder.</li>
+  <li><b> Processed: The raw datasets were merged together in the Data Wrangling notebook, and subsetted to the 2005-2022 years used in the analysis (housing_data_for_eda.csv). We fill in missing values during EDA to prepare the data for modeling (housing_data_for_modeling.csv). </li>
   <li><b> Notebooks: </b> Contains jupyter notebooks of Data Wrangling, Exploratory Data Analysis, Modeling, & Forecasting </li>
 </ul>
 
